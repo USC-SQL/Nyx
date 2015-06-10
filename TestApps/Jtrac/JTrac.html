@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0096)http://localhost:8078/jtrac/app/?wicket:bookmarkablePage=%3Ainfo.jtrac.wicket.ItemSearchFormPage -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JTrac</title>
+        <link rel="stylesheet" type="text/css" href="./JTrac_files/jtrac.css">
+        <link rel="shortcut icon" type="image/x-icon" href="http://localhost:8078/jtrac/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="http://localhost:8078/jtrac/favicon.ico">
+    <script type="text/javascript" src="./JTrac_files/wicket-event.js"></script>
+<script type="text/javascript" src="./JTrac_files/wicket-ajax.js"></script>
+<script src="chrome-extension://epckjefillidgmfmclhcbaembhpdeijg/notify_hook.js" type="text/javascript"></script><style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;}</style></head>    
+    <body>        
+        
+    <div class="nav-header" style="float:left">        
+        <table style="float:left">
+            <tbody><tr>
+                <td onclick="var win = this.ownerDocument.defaultView || this.ownerDocument.parentWindow; if (win == window) { window.location.href=&#39;?wicket:interface=:3:header:dashboard::ILinkListener::&#39;; } ;return false"><a href="http://localhost:8078/jtrac/app/?wicket:bookmarkablePage=%3Ainfo.jtrac.wicket.ItemSearchFormPage#"><img src="./JTrac_files/dashboard.gif">DASHBOARD</a></td>
+                
+                
+                <td onclick="var win = this.ownerDocument.defaultView || this.ownerDocument.parentWindow; if (win == window) { window.location.href=&#39;?wicket:interface=:3:header:search::ILinkListener::&#39;; } ;return false"><a href="http://localhost:8078/jtrac/app/?wicket:bookmarkablePage=%3Ainfo.jtrac.wicket.ItemSearchFormPage#"><img src="./JTrac_files/search.gif">SEARCH</a></td>
+            </tr>
+        </tbody></table>        
+        <table style="float:right">
+            <tbody><tr>                                
+                <td onclick="var win = this.ownerDocument.defaultView || this.ownerDocument.parentWindow; if (win == window) { window.location.href=&#39;?wicket:interface=:3:header:options::ILinkListener::&#39;; } ;return false"><a href="http://localhost:8078/jtrac/app/?wicket:bookmarkablePage=%3Ainfo.jtrac.wicket.ItemSearchFormPage#"><img src="./JTrac_files/options.gif">OPTIONS</a></td>
+                <td onclick="var win = this.ownerDocument.defaultView || this.ownerDocument.parentWindow; if (win == window) { window.location.href=&#39;?wicket:interface=:3:header:logout::ILinkListener::&#39;; } ;return false"><a href="http://localhost:8078/jtrac/app/?wicket:bookmarkablePage=%3Ainfo.jtrac.wicket.ItemSearchFormPage#"><img src="./JTrac_files/logout.gif">LOGOUT</a></td>
+                
+                <td><img src="./JTrac_files/user.gif"><span>Admin</span></td>
+            </tr>
+        </tbody></table>        
+    </div>
+<br>
+        <div style="clear:both"><br></div>
+        
+            
+            <span>            
+            <form id="form19" action="http://localhost:8078/jtrac/app/?wicket:interface=:3:panel:form::IFormSubmitListener::" method="post"><div style="display:none"><input type="hidden" name="form19_hf_0" id="form19_hf_0"></div>
+                <span>
+  
+</span>
+                <table class="jtrac">
+                    <tbody><tr>
+                        <th>Results / Page</th>
+                        <td><select name="pageSize">
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="15">15</option>
+<option selected="selected" value="25">25</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="-1">No Limit</option>
+</select></td>
+                        <td>
+                        </td><th>Show History</th>                            
+                        <td>    
+                            <input name="showHistory" type="checkbox">                            
+                        </td>
+                        <td>
+                            <input id="search24" name="search" value="Search" type="submit">
+                        </td>
+                    </tr>
+                </tbody></table>                                               
+                <table class="jtrac">
+                    <tbody><tr class="alt">
+                        <td align="center">Show in Results</td>
+                        <td align="center">Search Filter</td>
+                        <td align="center">
+                            <a href="http://localhost:8078/jtrac/app/?wicket:interface=:3:panel:form:expandAll::ILinkListener::">(expand all)</a>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td class="label">
+                            <span>ID</span>
+                            <input name="columns:0:visible" type="checkbox" checked="checked">
+                        </td>                            
+                        <td class="alt"><select id="expression31" onchange="wicketShow(&#39;expression31--ajax-indicator&#39;);var wcall=wicketAjaxPost(&#39;?wicket:interface=:3:panel:form:columns:0:expression::IBehaviorListener:1:&#39;, wicketSerialize(Wicket.$(&#39;expression31&#39;)),function(){;wicketHide(&#39;expression31--ajax-indicator&#39;);}.bind(this),function() { ;wicketHide(&#39;expression31--ajax-indicator&#39;);}.bind(this), function() {return Wicket.$(&#39;expression31&#39;) != null;}.bind(this));" name="columns:0:expression">
+<option value=""></option>
+<option selected="selected" value="equal">equal to</option>
+</select><span style="display:none;" class="wicket-ajax-indicator" id="expression31--ajax-indicator"><img src="./JTrac_files/indicator.gif" alt=""></span></td>
+                        <td id="fragParent32"><input name="columns:0:fragParent:value" value=""> </td>
+                    </tr><tr valign="top">
+                        <td class="label">
+                            <span>Space</span>
+                            <input name="columns:1:visible" type="checkbox">
+                        </td>                            
+                        <td class="alt"><select id="expression33" onchange="wicketShow(&#39;expression33--ajax-indicator&#39;);var wcall=wicketAjaxPost(&#39;?wicket:interface=:3:panel:form:columns:1:expression::IBehaviorListener:1:&#39;, wicketSerialize(Wicket.$(&#39;expression33&#39;)),function(){;wicketHide(&#39;expression33--ajax-indicator&#39;);}.bind(this),function() { ;wicketHide(&#39;expression33--ajax-indicator&#39;);}.bind(this), function() {return Wicket.$(&#39;expression33&#39;) != null;}.bind(this));" name="columns:1:expression">
+<option value=""></option>
+<option value="in">has values</option>
+</select><span style="display:none;" class="wicket-ajax-indicator" id="expression33--ajax-indicator"><img src="./JTrac_files/indicator.gif" alt=""></span></td>
+                        <td id="fragParent34"></td>
+                    </tr><tr valign="top">
+                        <td class="label">
+                            <span>Summary</span>
+                            <input name="columns:2:visible" type="checkbox" checked="checked">
+                        </td>                            
+                        <td class="alt"><select id="expression35" onchange="wicketShow(&#39;expression35--ajax-indicator&#39;);var wcall=wicketAjaxPost(&#39;?wicket:interface=:3:panel:form:columns:2:expression::IBehaviorListener:1:&#39;, wicketSerialize(Wicket.$(&#39;expression35&#39;)),function(){;wicketHide(&#39;expression35--ajax-indicator&#39;);}.bind(this),function() { ;wicketHide(&#39;expression35--ajax-indicator&#39;);}.bind(this), function() {return Wicket.$(&#39;expression35&#39;) != null;}.bind(this));" name="columns:2:expression">
+<option value=""></option>
+<option value="like">contains text</option>
+</select><span style="display:none;" class="wicket-ajax-indicator" id="expression35--ajax-indicator"><img src="./JTrac_files/indicator.gif" alt=""></span></td>
+                        <td id="fragParent36"></td>
+                    </tr><tr valign="top">
+                        <td class="label">
+                            <span>Detail</span>
+                            <input name="columns:3:visible" type="checkbox">
+                        </td>                            
+                        <td class="alt"><select id="expression37" onchange="wicketShow(&#39;expression37--ajax-indicator&#39;);var wcall=wicketAjaxPost(&#39;?wicket:interface=:3:panel:form:columns:3:expression::IBehaviorListener:1:&#39;, wicketSerialize(Wicket.$(&#39;expression37&#39;)),function(){;wicketHide(&#39;expression37--ajax-indicator&#39;);}.bind(this),function() { ;wicketHide(&#39;expression37--ajax-indicator&#39;);}.bind(this), function() {return Wicket.$(&#39;expression37&#39;) != null;}.bind(this));" name="columns:3:expression">
+<option value=""></option>
+<option value="like">contains text</option>
+</select><span style="display:none;" class="wicket-ajax-indicator" id="expression37--ajax-indicator"><img src="./JTrac_files/indicator.gif" alt=""></span></td>
+                        <td id="fragParent38"></td>
+                    </tr><tr valign="top">
+                        <td class="label">
+                            <span>Logged By</span>
+                            <input name="columns:4:visible" type="checkbox" checked="checked">
+                        </td>                            
+                        <td class="alt"><select id="expression39" onchange="wicketShow(&#39;expression39--ajax-indicator&#39;);var wcall=wicketAjaxPost(&#39;?wicket:interface=:3:panel:form:columns:4:expression::IBehaviorListener:1:&#39;, wicketSerialize(Wicket.$(&#39;expression39&#39;)),function(){;wicketHide(&#39;expression39--ajax-indicator&#39;);}.bind(this),function() { ;wicketHide(&#39;expression39--ajax-indicator&#39;);}.bind(this), function() {return Wicket.$(&#39;expression39&#39;) != null;}.bind(this));" name="columns:4:expression">
+<option value=""></option>
+<option value="in">has values</option>
+</select><span style="display:none;" class="wicket-ajax-indicator" id="expression39--ajax-indicator"><img src="./JTrac_files/indicator.gif" alt=""></span></td>
+                        <td id="fragParent40"></td>
+                    </tr><tr valign="top">
+                        <td class="label">
+                            <span>Assigned To</span>
+                            <input name="columns:5:visible" type="checkbox" checked="checked">
+                        </td>                            
+                        <td class="alt"><select id="expression41" onchange="wicketShow(&#39;expression41--ajax-indicator&#39;);var wcall=wicketAjaxPost(&#39;?wicket:interface=:3:panel:form:columns:5:expression::IBehaviorListener:1:&#39;, wicketSerialize(Wicket.$(&#39;expression41&#39;)),function(){;wicketHide(&#39;expression41--ajax-indicator&#39;);}.bind(this),function() { ;wicketHide(&#39;expression41--ajax-indicator&#39;);}.bind(this), function() {return Wicket.$(&#39;expression41&#39;) != null;}.bind(this));" name="columns:5:expression">
+<option value=""></option>
+<option value="in">has values</option>
+</select><span style="display:none;" class="wicket-ajax-indicator" id="expression41--ajax-indicator"><img src="./JTrac_files/indicator.gif" alt=""></span></td>
+                        <td id="fragParent42"></td>
+                    </tr><tr valign="top">
+                        <td class="label">
+                            <span>Time Stamp</span>
+                            <input name="columns:6:visible" type="checkbox" checked="checked">
+                        </td>                            
+                        <td class="alt"><select id="expression43" onchange="wicketShow(&#39;expression43--ajax-indicator&#39;);var wcall=wicketAjaxPost(&#39;?wicket:interface=:3:panel:form:columns:6:expression::IBehaviorListener:1:&#39;, wicketSerialize(Wicket.$(&#39;expression43&#39;)),function(){;wicketHide(&#39;expression43--ajax-indicator&#39;);}.bind(this),function() { ;wicketHide(&#39;expression43--ajax-indicator&#39;);}.bind(this), function() {return Wicket.$(&#39;expression43&#39;) != null;}.bind(this));" name="columns:6:expression">
+<option value=""></option>
+<option value="between">between</option>
+<option value="greaterThan">greater than</option>
+<option value="lessThan">less than</option>
+</select><span style="display:none;" class="wicket-ajax-indicator" id="expression43--ajax-indicator"><img src="./JTrac_files/indicator.gif" alt=""></span></td>
+                        <td id="fragParent44"></td>
+                    </tr>                    
+                </tbody></table>
+            </form>
+                        
+                        
+            
+        </span>        
+        <br>
+        <table width="100%" class="jtrac">
+            <tbody><tr class="alt">
+                <td align="right">
+                    <i>powered by <a href="http://jtrac.info/" target="_blank">JTrac</a> <span>2.1.0</span></i>
+                </td>
+            </tr>
+        </tbody></table>        
+    
+
+<div id="libnotify-notifications-transfer-dom-area" style="display: none;"></div></body></html>

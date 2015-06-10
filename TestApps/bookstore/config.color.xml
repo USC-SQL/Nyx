@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name="bookstore" defaultTarget="Default.jsp">
+	
+	<classpath dir="./WEB-INF/classes"/>
+	<mainmethod classname="org.apache.jsp.Default_jsp" subsig="void _jspService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)"/>
+
+		
+</app>

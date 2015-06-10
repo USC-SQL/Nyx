@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name="bookstore">
+	<usetemplate value="true"/>
+	<templatepath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac.html"/>
+	<csspath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac_files/jtrac.css"/>
+	<libpath path="/home/dingli/gitprojects/Nyx/libs/"/>
+	<bgcolor color="#ffffff"/>
+	<modifyscriptpath path="/home/dingli/gitprojects/Nyx/executable/transformscript.sh"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac_files/dashboard.gif"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac_files/indicator.gif"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac_files/logout.gif"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac_files/options.gif"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac_files/search.gif"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Jtrac/JTrac_files/user.gif"/>
+
+
+		
+</app>
