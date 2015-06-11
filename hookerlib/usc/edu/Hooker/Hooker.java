@@ -14,13 +14,13 @@ public class Hooker {
 		Hashtable<Color, Color> bgtable=new Hashtable<Color, Color>();
 		Hashtable<Color, Color> texttable=new Hashtable<Color, Color>();
 
-		bgtable.put(new Color("#ffeac5"), new Color("#4c4014"));
+		bgtable.put(new Color("#ffeac5"), new Color("#043400"));
 bgtable.put(new Color("#ffffff"), new Color("#000000"));
-bgtable.put(new Color("#336699"), new Color("#a7108c"));
+bgtable.put(new Color("#336699"), new Color("#9700eb"));
 texttable.put(new Color("#0000ff"), new Color("#60c0d0"));
-texttable.put(new Color("#ffffff"), new Color("#d3d3d3"));
+texttable.put(new Color("#ffffff"), new Color("#20b2aa"));
 texttable.put(new Color("#ce7e00"), new Color("#a05060"));
-texttable.put(new Color("#000000"), new Color("#00ffff"));
+texttable.put(new Color("#000000"), new Color("#fff0f5"));
 
 
 		//Pattern pattern1 = Pattern.compile(".*background-color\\s*:\\s*([\\#A-Za-z0-9\\(\\),]+).*");

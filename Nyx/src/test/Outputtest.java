@@ -43,6 +43,10 @@ public class Outputtest {
 		{
 			long start=System.currentTimeMillis();
 			OutputGraph opg=new OutputGraph(mif);
+			PrintWriter pw2=new PrintWriter("HOG.html");
+
+			pw2.println(opg.dumpToHtml());
+			pw2.close();
 
 			SemiTagGraph hg=new SemiTagGraph(opg);
 			CSSdataBase cssdb=null;
@@ -58,6 +62,10 @@ public class Outputtest {
 			//pw.close();
 
 			ColorConfictGraph CCG=new ColorConfictGraph(htmlg);
+			pw2=new PrintWriter("BCCG.dot");
+
+			pw2.println(CCG.toDot());
+			pw2.close();
 			TexColorMap TCM=new TexColorMap(htmlg);
 
 			ColorTansformScheme CTS =new ColorTansformScheme(CCG, TCM,mif.bgcolor);
@@ -107,7 +115,7 @@ public class Outputtest {
 
 
 
-		/*
+
 		//CTS.Display();
 		int i;
 
@@ -128,7 +136,7 @@ public class Outputtest {
 			pw.print(textsheme.GetImageScript(filename));
 			//textsheme.DisplayTransform(mif);
 		}
-		pw.close();*/
+		pw.close();
 
 
 	}

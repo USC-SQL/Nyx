@@ -25,6 +25,13 @@ public class ColorTansformScheme {
 		return r;
 
 	}
+	public String GeneratePerl(){
+		String r="";
+
+		return r;
+
+
+	}
 	public void GenerateJavaFromTemplate(String inpath, String out){
 		File f=new File(inpath);
 		System.out.println(f.getAbsolutePath());

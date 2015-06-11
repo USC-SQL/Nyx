@@ -163,6 +163,17 @@ public class BackgroundColorScheme {
 		}
 		return r;
 	}
+	public String getPerlCode(){
+		String r="";
+
+		for(CCGNode n:transformtable.keySet())
+		{
+			Color trans=transformtable.get(n);
+			String out="bgtable.put(new Color(\""+ n.getColor().toHexString()+"\"), new Color(\""+trans.toHexString()+"\"));";
+			r+=(out+"\n");
+		}
+		return r;
+	}
 	private double H(Set<CCGNode> workset, ColorConfictGraph ccg, Hashtable<CCGNode, Color>transformtable)
 	{
 		double h=0;
