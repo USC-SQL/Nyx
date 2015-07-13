@@ -22,8 +22,8 @@ public class BackgroundColorScheme {
 	{
 		double h=0;
 		int cnt=0;
-		for(CCGNode ccgnode1:ccg.GetAllNodes())
-			for(CCGNode ccgnode2:ccg.GetAllNodes())
+		for(CCGNode ccgnode1:ccg.getAllNodes())
+			for(CCGNode ccgnode2:ccg.getAllNodes())
 			{
 				cnt++;
 				if(ccgnode2 == ccgnode1)
@@ -32,7 +32,7 @@ public class BackgroundColorScheme {
 					Color originalC2=ccgnode2.getColor();
 					Color TansformedC1=transformtable.get(ccgnode1);
 					Color TansformedC2=transformtable.get(ccgnode2);
-					double w=ccg.QueryWight(ccgnode1, ccgnode2);
+					double w=ccg.queryWight(ccgnode1, ccgnode2);
 
 					double originaldist=ColorDistCalculator.CalDist(originalC1, originalC2);
 					double transformeddist=ColorDistCalculator.CalDist(TansformedC1, TansformedC2);
@@ -45,8 +45,8 @@ public class BackgroundColorScheme {
 	{
 		double ac=0;
 		double cnt=0;
-		for(CCGNode ccgnode1:ccg.GetAllNodes())
-			for(CCGNode ccgnode2:ccg.GetAllNodes())
+		for(CCGNode ccgnode1:ccg.getAllNodes())
+			for(CCGNode ccgnode2:ccg.getAllNodes())
 			{
 				if(ccgnode2 == ccgnode1)
 					continue;
@@ -61,14 +61,14 @@ public class BackgroundColorScheme {
 	private double accumulateDist(ColorConfictGraph ccg)
 	{
 		double ac=0;
-		for(CCGNode ccgnode1:ccg.GetAllNodes())
-			for(CCGNode ccgnode2:ccg.GetAllNodes())
+		for(CCGNode ccgnode1:ccg.getAllNodes())
+			for(CCGNode ccgnode2:ccg.getAllNodes())
 			{
 				if(ccgnode2 == ccgnode1)
 					continue;
 					Color originalC1=ccgnode1.getColor();
 					Color originalC2=ccgnode2.getColor();
-					double w=ccg.QueryWight(ccgnode1, ccgnode2);
+					double w=ccg.queryWight(ccgnode1, ccgnode2);
 
 					double originaldist=ColorDistCalculator.CalDist(originalC1, originalC2);
 					ac+=w*(originaldist)*(originaldist);
@@ -112,8 +112,8 @@ public class BackgroundColorScheme {
 	private double H(ColorConfictGraph ccg, Hashtable<CCGNode, Color>transformtable)
 	{
 		double h=0;
-		for(CCGNode ccgnode1:ccg.GetAllNodes())
-			for(CCGNode ccgnode2:ccg.GetAllNodes())
+		for(CCGNode ccgnode1:ccg.getAllNodes())
+			for(CCGNode ccgnode2:ccg.getAllNodes())
 			{
 				if(ccgnode2 == ccgnode1)
 					continue;
@@ -121,7 +121,7 @@ public class BackgroundColorScheme {
 					Color originalC2=ccgnode2.getColor();
 					Color TansformedC1=transformtable.get(ccgnode1);
 					Color TansformedC2=transformtable.get(ccgnode2);
-					double w=ccg.QueryWight(ccgnode1, ccgnode2);
+					double w=ccg.queryWight(ccgnode1, ccgnode2);
 
 					double originaldist=ColorDistCalculator.CalDist(originalC1, originalC2);
 					double transformeddist=ColorDistCalculator.CalDist(TansformedC1, TansformedC2);
@@ -186,7 +186,7 @@ public class BackgroundColorScheme {
 					Color originalC2=ccgnode2.getColor();
 					Color TansformedC1=transformtable.get(ccgnode1);
 					Color TansformedC2=transformtable.get(ccgnode2);
-					double w=ccg.QueryWight(ccgnode1, ccgnode2);
+					double w=ccg.queryWight(ccgnode1, ccgnode2);
 
 					double originaldist=ColorDistCalculator.CalDist(originalC1, originalC2);
 					double transformeddist=ColorDistCalculator.CalDist(TansformedC1, TansformedC2);
@@ -201,7 +201,7 @@ public class BackgroundColorScheme {
 		ColorDatabase codb=new ColorDatabase();
 		Hashtable<CCGNode, Color> tmptransformtable=new Hashtable<CCGNode, Color>();
 
-		for(CCGNode ccgnode:ccg.GetAllNodes())
+		for(CCGNode ccgnode:ccg.getAllNodes())
 		{
 			if(ccgnode.getColor().equals(bg))//change it to the color you want to adapt
 				root=ccgnode;
@@ -211,7 +211,7 @@ public class BackgroundColorScheme {
 		Set<CCGNode> WorkSet=new HashSet<CCGNode>();
 		Set<CCGNode> WhiteSet=new HashSet<CCGNode>();
 		WorkSet.add(root);
-		WhiteSet.addAll(ccg.GetAllNodes());
+		WhiteSet.addAll(ccg.getAllNodes());
 		WhiteSet.remove(root);
 		while(!WhiteSet.isEmpty())
 		{
@@ -220,7 +220,7 @@ public class BackgroundColorScheme {
 			for(CCGNode n:WorkSet)
 				for(CCGNode w:WhiteSet)
 				{
-					double wight=ccg.QueryWight(n,w);
+					double wight=ccg.queryWight(n, w);
 					if(wight>largestvalue)
 					{
 						largestvalue=wight;

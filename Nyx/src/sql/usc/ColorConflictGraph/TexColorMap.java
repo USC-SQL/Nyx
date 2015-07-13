@@ -82,7 +82,7 @@ public TexColorMap(HTMLContentGraph HTMLcg)
 	Hashtable<Color, CCGNode> nodetable=new Hashtable<Color, CCGNode>();
 	Hashtable<HTMLContentNode, Set<CCGNode>> INtable=new Hashtable<HTMLContentNode, Set<CCGNode>>();
 	Hashtable<HTMLContentNode, Set<CCGNode>> OUTtable=new Hashtable<HTMLContentNode, Set<CCGNode>>();
-	Set<HTMLContentNode> allcontentnode=HTMLcg.GetAllNodes();
+	Set<HTMLContentNode> allcontentnode=HTMLcg.getAllNodes();
 	int id=0;
 	for(HTMLContentNode contentnode:allcontentnode)
 	{
