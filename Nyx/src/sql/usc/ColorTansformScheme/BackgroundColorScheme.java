@@ -89,20 +89,20 @@ public class BackgroundColorScheme {
 				if(key==root)
 					continue;
 				Color c=clonetable.get(key);
-				int cR=c.GetR();
-				int cG=c.GetG();
-				int cB=c.GetB();
+				int cR=c.getR();
+				int cG=c.getG();
+				int cB=c.getB();
 
 				int sign=0;
 			     sign=generator.nextInt(3)-1;
 			     cR+=sign*delta;
-			     c.SetR(cR);
+			     c.setR(cR);
 			     sign=generator.nextInt(3)-1;
 			     cG+=sign*delta;
-			     c.SetG(cG);
+			     c.setG(cG);
 			     sign=generator.nextInt(3)-1;
 			     cB+=sign*delta;
-			     c.SetB(cB);
+			     c.setB(cB);
 			     
 			}
 			return clonetable;

@@ -23,8 +23,8 @@ public static void main(String argv[])
 	for(Color c1: allcolors)
 		for(Color c2: allcolors)
 		{
-			Color invertc1=new Color(255-c1.GetR(),255-c1.GetG(),255-c1.GetB());
-			Color invertc2=new Color(255-c2.GetR(),255-c2.GetG(),255-c2.GetB());
+			Color invertc1=new Color(255-c1.getR(),255-c1.getG(),255-c1.getB());
+			Color invertc2=new Color(255-c2.getR(),255-c2.getG(),255-c2.getB());
 
 			double blackdist=ColorDistCalculator.CalDist(c1,c2);
 			double whitedist=ColorDistCalculator.CalDist(invertc1,invertc2);

@@ -210,7 +210,6 @@ public class OutputGraph {
 					if(nos.solved)
 					{
 						meta.SummaryTable.put(m.getSignature(), nos);
-						unsolved.remove(m);
 					}
 				}
 				//System.out.println(m);
