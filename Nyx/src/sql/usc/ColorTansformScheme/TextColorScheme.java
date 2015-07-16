@@ -96,19 +96,17 @@ public class TextColorScheme {
 			Color bestColor = null;
 			for(Color c:codb.GetAllColor())
 			{
-				double temp=subH(conflictbg, bgt, c, node.getColor());
-				if(temp<minsubh)
+				double temp = subH(conflictbg, bgt, c, node.getColor());
+				if(temp < minsubh)
 				{
-					minsubh=temp;
-					bestColor=c;
+					minsubh = temp;
+					bestColor = c;
 				}
 			}
 			Debuglog.log(node.getColor());
 			Debuglog.log(bestColor);
 			transformTable.put(node, bestColor);
 		}
-
-
 		
 	}
 }

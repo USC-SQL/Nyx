@@ -9,7 +9,9 @@ import soot.SootClass;
 import soot.SootMethod;
 import sql.usc.Color.Color;
 import sql.usc.ColorConflictGraph.ColorConflictGraph;
+import sql.usc.ColorConflictGraph.TexColorMap;
 import sql.usc.ColorTansformScheme.BackgroundColorScheme;
+import sql.usc.ColorTansformScheme.ColorTransformScheme;
 import sql.usc.Soot.AndroidApp;
 
 import java.io.BufferedWriter;
@@ -62,7 +64,8 @@ public class AdjacencyTest {
         SAXReader reader = new SAXReader();
         XMLAdjacencyGraph ag = new XMLAdjacencyGraph(xmlPath);
         ColorConflictGraph ccg = new ColorConflictGraph(ag);
-        BackgroundColorScheme bgScheme = new BackgroundColorScheme(ccg, new Color(0xee, 0xee, 0xee));
+        TexColorMap tcm =new TexColorMap(ag);
+        ColorTransformScheme cts = new ColorTransformScheme(ccg, tcm, new Color(0xee, 0xee, 0xee));
 
         FileWriter fw = null;
         try {

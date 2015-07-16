@@ -24,7 +24,7 @@ public class CCGNode {
 	{
 		this.root = true;
 	}
-	public CCGNode(Color c,int next_id)
+	public CCGNode(Color c, int next_id)
 	{
 		this.id = next_id;
 		this.color = c;
