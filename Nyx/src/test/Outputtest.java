@@ -8,22 +8,11 @@ import java.util.HashSet;
 import org.apache.bcel.classfile.ClassFormatException;
 
 import CSSdatabase.CSSdataBase;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.mime.MultipartEntity;
-import org.apache.http.entity.mime.content.ContentBody;
-import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
-import soot.Scene;
 import sql.usc.Color.Color;
-import sql.usc.ColorConflictGraph.ColorConfictGraph;
+import sql.usc.ColorConflictGraph.ColorConflictGraph;
 import sql.usc.ColorConflictGraph.TexColorMap;
 import sql.usc.ColorTansformScheme.BackgroundColorScheme;
-import sql.usc.ColorTansformScheme.ColorTansformScheme;
+import sql.usc.ColorTansformScheme.ColorTransformScheme;
 import sql.usc.ColorTansformScheme.TextColorScheme;
 import sql.usc.HTMLContentGraph.*;
 import sql.usc.MIF.Image;
@@ -61,14 +50,14 @@ public class Outputtest {
 			HTMLContentGraph htmlg=new HTMLContentGraph(hg,cssdb);
 			//pw.close();
 
-			ColorConfictGraph CCG=new ColorConfictGraph(htmlg);
+			ColorConflictGraph CCG=new ColorConflictGraph(htmlg);
 			pw2=new PrintWriter("BCCG.dot");
 
 			pw2.println(CCG.toDot());
 			pw2.close();
 			TexColorMap TCM=new TexColorMap(htmlg);
 
-			ColorTansformScheme CTS =new ColorTansformScheme(CCG, TCM,mif.bgcolor);
+			ColorTransformScheme CTS =new ColorTransformScheme(CCG, TCM,mif.bgcolor);
 			CTS.GenerateJavaFromTemplate("./Hooker_template.java",mif.hookerpath+"usc/edu/Hooker/Hooker.java");
 
 
@@ -100,14 +89,14 @@ public class Outputtest {
 		pw.println(htmlg.toDot());
 		//pw.close();
 
-		ColorConfictGraph CCG=new ColorConfictGraph(htmlg);
+		ColorConflictGraph CCG=new ColorConflictGraph(htmlg);
 		pw.println(CCG.toDot());
 		TexColorMap TCM=new TexColorMap(htmlg);
 		pw.println(TCM.toDot());
 		pw.close();
 
 		long time2=System.currentTimeMillis();
-		ColorTansformScheme CTS =new ColorTansformScheme(CCG, TCM,new Color(255,255,255));
+		ColorTransformScheme CTS =new ColorTransformScheme(CCG, TCM,new Color(255,255,255));
 		long time3=System.currentTimeMillis();
 
 		CTS.Display();
@@ -126,7 +115,7 @@ public class Outputtest {
 			System.out.println(filename);
 			pw.println("cp "+img.path+" ./"+filename);
 
-			ColorConfictGraph CCGimg=new ColorConfictGraph(new Color("#ffffff"),new HashSet<Color>());
+			ColorConflictGraph CCGimg=new ColorConflictGraph(new Color("#ffffff"),new HashSet<Color>());
 			BackgroundColorScheme bgsheme=new BackgroundColorScheme(CCGimg,new Color("#ffffff"));
 			TexColorMap TCMimg=new TexColorMap(mif.bgcolor,img.colorpalette);
 

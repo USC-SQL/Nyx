@@ -8,8 +8,6 @@ import java.util.regex.Pattern;
 import CSSdatabase.CSSdataBase;
 import Debug.Debuglog;
 
-
-import soot.util.Debug;
 import sql.usc.Color.Color;
 import sql.usc.SemiTagGraph.SemiTagNode;
 import dk.brics.automaton.Automaton;

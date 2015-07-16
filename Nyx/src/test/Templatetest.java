@@ -9,9 +9,9 @@ import org.apache.bcel.classfile.ClassFormatException;
 import CSSdatabase.CSSdataBase;
 
 import sql.usc.Color.Color;
-import sql.usc.ColorConflictGraph.ColorConfictGraph;
+import sql.usc.ColorConflictGraph.ColorConflictGraph;
 import sql.usc.ColorConflictGraph.TexColorMap;
-import sql.usc.ColorTansformScheme.ColorTansformScheme;
+import sql.usc.ColorTansformScheme.ColorTransformScheme;
 import sql.usc.HTMLContentGraph.HTMLContentGraph;
 import sql.usc.OutputGraph.OutputGraph;
 import sql.usc.SemiTagGraph.SemiTagGraph;
@@ -40,7 +40,7 @@ public class Templatetest {
 		pw.println(htmlg.toDot());
 		//pw.close();
 
-		ColorConfictGraph CCG=new ColorConfictGraph(htmlg);
+		ColorConflictGraph CCG=new ColorConflictGraph(htmlg);
 		pw.println(CCG.toDot());
 		TexColorMap TCM=new TexColorMap(htmlg);
 		pw.println(TCM.toDot());
@@ -48,7 +48,7 @@ public class Templatetest {
 
 		long time2=System.currentTimeMillis();
 		System.out.println("Structure time:"+(time2-time1));
-		ColorTansformScheme CTS =new ColorTansformScheme(CCG, TCM,new Color(255,255,255));
+		ColorTransformScheme CTS =new ColorTransformScheme(CCG, TCM,new Color(255,255,255));
 		long time3=System.currentTimeMillis();
 		System.out.println("Transformation time:"+(time3-time2));
 

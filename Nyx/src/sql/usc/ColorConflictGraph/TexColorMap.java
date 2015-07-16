@@ -94,14 +94,14 @@ public TexColorMap(HTMLContentGraph HTMLcg)
 			if(nodetable.containsKey(c))
 			{
 				CCGNode ccgnode=nodetable.get(c);
-				ccgnode.AddSigs(contentnode.getSig());
+				ccgnode.addSigs(contentnode.getSig());
 				nodetable.put(c, ccgnode);
 			}
 			else
 			{
 				CCGNode ccgnode=new CCGNode(c,id);
 				id++;
-				ccgnode.AddSigs(contentnode.getSig());
+				ccgnode.addSigs(contentnode.getSig());
 				nodetable.put(c, ccgnode);
 				bgcolors.add(ccgnode);
 			}
@@ -155,14 +155,14 @@ public TexColorMap(HTMLContentGraph HTMLcg)
 			if(textnodetable.containsKey(c))
 			{
 				ctext=textnodetable.get(c);
-				ctext.AddSigs(contentnode.getSig());
+				ctext.addSigs(contentnode.getSig());
 				textnodetable.put(c, ctext);
 			}
 			else
 			{
 				ctext=new CCGNode(c,id);
 				id++;
-				ctext.AddSigs(contentnode.getSig());
+				ctext.addSigs(contentnode.getSig());
 				textnodetable.put(c, ctext);
 				textcolors.add(ctext);
 			}
@@ -178,14 +178,14 @@ public TexColorMap(HTMLContentGraph HTMLcg)
 			if(textnodetable.containsKey(c))
 			{
 				ctext=textnodetable.get(c);
-				ctext.AddSigs(contentnode.getSig());
+				ctext.addSigs(contentnode.getSig());
 				textnodetable.put(c, ctext);
 			}
 			else
 			{
 				ctext=new CCGNode(c,id);
 				id++;
-				ctext.AddSigs(contentnode.getSig());
+				ctext.addSigs(contentnode.getSig());
 				textnodetable.put(c, ctext);
 				textcolors.add(ctext);
 			}
