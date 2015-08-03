@@ -37,6 +37,8 @@ public class Outputtest {
 	public static void main(String argv[]) throws ClassFormatException, WAMConfigurationException, IOException
 	{
 		MIF mif=new MIF(argv[0]);
+		File tempf = new File(mif.modifyscriptpath);
+		String modifyscriptfodler=tempf.getParent();
 		PrintWriter pw=new PrintWriter(mif.modifyscriptpath);
 		pw.println("#! /bin/bash");
 		if(!mif.usetemplate)
@@ -81,36 +83,41 @@ public class Outputtest {
 			pw.println("cp -r hookerlib/* GeneratedClasses/");
 		}
 		else{
-		File f=new File(mif.templatepath);
-		OutputGraph opg=new OutputGraph(f);
-		//pw.println(opg.toDot());
-		long time1=System.currentTimeMillis();
-		SemiTagGraph hg=new SemiTagGraph(opg);
-		pw.println(hg.toDot());
-			CSSdataBase cssdb;
-			if(mif.csspath.equals("None"))
-			{
-				cssdb=null;
-			}
-			else{
-				cssdb=new CSSdataBase(mif.csspath);
-			}
-		//CSSdataBase cssdb=null;
-		HTMLContentGraph htmlg=new HTMLContentGraph(hg,cssdb);
-		pw.println(htmlg.toDot());
-		//pw.close();
+			File f=new File(mif.templatepath);
+			OutputGraph opg=new OutputGraph(f);
+			//pw.println(opg.toDot());
+			long time1=System.currentTimeMillis();
+			SemiTagGraph hg=new SemiTagGraph(opg);
+			//pw.println(hg.toDot());
+				CSSdataBase cssdb;
+				if(mif.csspath.equals("None"))
+				{
+					cssdb=null;
+				}
+				else{
+					cssdb=new CSSdataBase(mif.csspath);
+				}
+			//CSSdataBase cssdb=null;
+			HTMLContentGraph htmlg=new HTMLContentGraph(hg,cssdb);
+			//pw.println(htmlg.toDot());
+			//pw.close();
 
-		ColorConfictGraph CCG=new ColorConfictGraph(htmlg);
-		pw.println(CCG.toDot());
-		TexColorMap TCM=new TexColorMap(htmlg);
-		pw.println(TCM.toDot());
-		pw.close();
+			ColorConfictGraph CCG=new ColorConfictGraph(htmlg);
+			//pw.println(CCG.toDot());
+			TexColorMap TCM=new TexColorMap(htmlg);
+			//pw.println(TCM.toDot());
 
-		long time2=System.currentTimeMillis();
-		ColorTansformScheme CTS =new ColorTansformScheme(CCG, TCM,new Color(255,255,255));
-		long time3=System.currentTimeMillis();
+			long time2=System.currentTimeMillis();
+			ColorTansformScheme CTS =new ColorTansformScheme(CCG, TCM,mif.bgcolor);
+			long time3=System.currentTimeMillis();
+			PrintWriter pw2=new PrintWriter(modifyscriptfodler+"/replace.pl");
+			pw2.print(CTS.GeneratePerl(mif.csspath));
+			pw2.close();
+			pw.println("chmod +x replace.pl");
+			pw.println("./replace.pl>"+new File(mif.csspath).getName());
 
-		CTS.Display();
+			//System.out.println(CTS.GeneratePerl(mif.csspath));
+			//CTS.Display();
 		}
 
 

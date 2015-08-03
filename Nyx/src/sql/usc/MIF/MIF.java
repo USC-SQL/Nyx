@@ -89,6 +89,8 @@ public class MIF {
     }
     private void setlibpath(Document dom)
     {
+        if(this.usetemplate)
+            return;
         NodeList nList=dom.getElementsByTagName("libpath");
         if(nList.getLength()==0)
         {

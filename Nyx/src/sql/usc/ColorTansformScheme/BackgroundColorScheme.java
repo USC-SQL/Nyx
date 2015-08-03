@@ -140,6 +140,12 @@ public class BackgroundColorScheme {
 		}
 
 	}
+	public void DisplayPerl()
+	{
+		String tag="backgournd";
+
+
+	}
 	public void Display()
 	{
 		String tag="backgournd";
@@ -163,14 +169,27 @@ public class BackgroundColorScheme {
 		}
 		return r;
 	}
+
+
 	public String getPerlCode(){
 		String r="";
 
 		for(CCGNode n:transformtable.keySet())
 		{
 			Color trans=transformtable.get(n);
-			String out="bgtable.put(new Color(\""+ n.getColor().toHexString()+"\"), new Color(\""+trans.toHexString()+"\"));";
-			r+=(out+"\n");
+			String color=n.getColor().toHexString();
+			String out="";
+			if(color.charAt(1)==color.charAt(2)&&color.charAt(3)==color.charAt(4)&&color.charAt(5)==color.charAt(6))
+			{
+				String shortcase=Character.toString(color.charAt(1))+Character.toString(color.charAt(3))+Character.toString(color.charAt(5));
+				out+="$file_content =~ s/background: *#"+ shortcase+"/background: "+n.getColor().toHexString()+"/gi;\n";
+				out+="$file_content =~ s/background-color: *#"+ shortcase+"/background-color: "+n.getColor().toHexString()+"/gi;\n";
+
+			}
+			out+="$file_content =~ s/background: *"+ n.getColor().toHexString()+"/background: "+trans.toHexString()+"/gi;\n";
+			out+="$file_content =~ s/background-color: *"+ n.getColor().toHexString()+"/background-color: "+trans.toHexString()+"/gi;\n";
+
+			r+=(out);
 		}
 		return r;
 	}

@@ -37,7 +37,7 @@ public class TagInforAbstractor {
 			 throw new Error("ilegal tag" + prefix);
 		 String tagname=m.group(1);
 		 tagname=tagname.toLowerCase();
-		 if(!tags.IsLegal(tagname))
+		if(!tags.IsLegal(tagname))
 			 throw new Error("ilegal tag name:"+tagname);
 
 		

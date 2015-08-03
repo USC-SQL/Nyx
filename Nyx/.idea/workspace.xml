@@ -7,16 +7,121 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a4fd466-4444-4eaf-8dbb-e336e040ed99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../executable/transformscript.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/dashboard.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/indicator.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/jtrac.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/logout.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/options.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/user.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/wicket-ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/wicket-event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JtracMIF.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/replace.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/Common.jsp.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/AdminBooks_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/AdminMenu_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/AdminServlet_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/AdvSearch_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/BookDetail_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/BookMaint_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/Books_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/CardTypesGrid_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/CardTypesRecord_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/CategoriesGrid_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/CategoriesRecord_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/Common_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/Default_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/EditorialCatGrid_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/EditorialCatRecord_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/EditorialsGrid_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/EditorialsRecord_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/Footer_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/Header_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/Login_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/MembersGrid_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/MembersInfo_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/MembersRecord_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/MyInfo_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/OrdersGrid_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/OrdersRecord_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/Registration_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/ShoppingCartRecord_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/ShoppingCart_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/org/apache/jsp/fseRegistration_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/sql/usc/Color/CIELAB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/sql/usc/Color/Color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/sql/usc/Color/ColorDatabase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/sql/usc/Color/ColorDistCalculator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/sql/usc/Color/ColorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/sql/usc/Color/ParseColor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/usc/edu/Hooker/Hooker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/classes/usc/edu/Hooker/Hooker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/generated_web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/lib/mysql.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/WEB-INF/web.xml.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/bookstoreMIF.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/bookstoreblack.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/config.color.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/1stars.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/2stars.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/3stars.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/4stars.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/5stars.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/Logo_bookstore.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0072122420.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/020135358X.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0201354934.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0596000278.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0672317842.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0672317966.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0735609667.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0735709211.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0735709491.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0735709971.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0761530169.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0782127738.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0789724405.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/0879304979.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1565924347.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1565925157.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1861002726.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1861003382.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1861004656.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1861004877.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1884133193.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/books/1884777996.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/convert.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/icon_admin.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/icon_home.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/icon_reg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/icon_shop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/icon_sign.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/images-old.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TestApps/bookstoreblack/images/images.tar.gz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/sql/usc/ColorTansformScheme/BackgroundColorScheme.class" afterPath="$PROJECT_DIR$/out/production/Nyx/sql/usc/ColorTansformScheme/BackgroundColorScheme.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/sql/usc/ColorTansformScheme/ColorTansformScheme.class" afterPath="$PROJECT_DIR$/out/production/Nyx/sql/usc/ColorTansformScheme/ColorTansformScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/sql/usc/MIF/MIF.class" afterPath="$PROJECT_DIR$/out/production/Nyx/sql/usc/MIF/MIF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Nyx_jar/Nyx.jar" afterPath="$PROJECT_DIR$/out/artifacts/Nyx_jar/Nyx.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../executable/Nyx.jar" afterPath="$PROJECT_DIR$/../executable/Nyx.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/test/Outputtest.class" afterPath="$PROJECT_DIR$/out/production/Nyx/test/Outputtest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/sql/usc/SemiTagGraph/SemiTagTree.class" afterPath="$PROJECT_DIR$/out/production/Nyx/sql/usc/SemiTagGraph/SemiTagTree.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/sql/usc/SemiTagGraph/TagAbstractor.class" afterPath="$PROJECT_DIR$/out/production/Nyx/sql/usc/SemiTagGraph/TagAbstractor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/sql/usc/HTMLContentGraph/TagInforAbstractor.class" afterPath="$PROJECT_DIR$/out/production/Nyx/sql/usc/HTMLContentGraph/TagInforAbstractor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Nyx/sql/usc/ColorTansformScheme/TextColorScheme.class" afterPath="$PROJECT_DIR$/out/production/Nyx/sql/usc/ColorTansformScheme/TextColorScheme.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/BackgroundColorScheme.java" afterPath="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/BackgroundColorScheme.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java" afterPath="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hookerlib/usc/edu/Hooker/Hooker.java" afterPath="$PROJECT_DIR$/../hookerlib/usc/edu/Hooker/Hooker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/usc/MIF/MIF.java" afterPath="$PROJECT_DIR$/src/sql/usc/MIF/MIF.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Outputtest.java" afterPath="$PROJECT_DIR$/src/test/Outputtest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/jtrac.css" afterPath="$PROJECT_DIR$/../TestApps/Jtrac/JTrac_files/jtrac.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/usc/SemiTagGraph/SemiTagTree.java" afterPath="$PROJECT_DIR$/src/sql/usc/SemiTagGraph/SemiTagTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/usc/SemiTagGraph/TagAbstractor.java" afterPath="$PROJECT_DIR$/src/sql/usc/SemiTagGraph/TagAbstractor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagInforAbstractor.java" afterPath="$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagInforAbstractor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java" afterPath="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NyxModifier/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../NyxModifier/.idea/workspace.xml" />
     </list>
     <ignored path="Nyx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,38 +147,28 @@
       <file leaf-file-name="Outputtest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/Outputtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94024605">
-              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.13253012">
+              <caret line="76" column="14" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Seer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Seer.java">
+      <file leaf-file-name="HTMLContentGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/HTMLContentGraph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="19" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="19" />
+              <caret line="134" column="51" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutputGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/OutputGraph.java">
+      <file leaf-file-name="SemiTagGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/usc/SemiTagGraph/SemiTagGraph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Metainfor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/Metainfor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,20 +178,18 @@
         <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MIF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sql/usc/MIF/MIF.java">
+      <file leaf-file-name="TextColorScheme.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,38 +198,51 @@
         <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/BackgroundColorScheme.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="124" />
+              <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutputNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/OutputNode.java">
+      <file leaf-file-name="SemiTagTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/usc/SemiTagGraph/SemiTagTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/Edge.java">
+      <file leaf-file-name="TagInforAbstractor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagInforAbstractor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Templatetest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Templatetest.java">
+      <file leaf-file-name="TagTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="54" selection-end-column="22" />
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLTagTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/HTMLTagTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,13 +272,17 @@
         <option value="$PROJECT_DIR$/src/sql/usc/MIF/MIFLoader.java" />
         <option value="$PROJECT_DIR$/src/test/ImageProcessor.java" />
         <option value="$PROJECT_DIR$/src/sql/usc/MIF/Image.java" />
-        <option value="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java" />
         <option value="$PROJECT_DIR$/src/sql/usc/OutputGraph/OutputGraph.java" />
         <option value="$PROJECT_DIR$/src/sql/usc/OutputGraph/Metainfor.java" />
         <option value="$PROJECT_DIR$/src/sql/usc/MIF/MIF.java" />
-        <option value="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java" />
+        <option value="$PROJECT_DIR$/src/sql/usc/SemiTagGraph/TagAbstractor.java" />
         <option value="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/BackgroundColorScheme.java" />
+        <option value="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java" />
         <option value="$PROJECT_DIR$/src/test/Outputtest.java" />
+        <option value="$PROJECT_DIR$/src/sql/usc/SemiTagGraph/SemiTagTree.java" />
+        <option value="$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagTester.java" />
+        <option value="$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagInforAbstractor.java" />
+        <option value="$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java" />
       </list>
     </option>
   </component>
@@ -213,6 +323,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -327,14 +439,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NyxModifier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.2529297" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -342,6 +452,13 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="nyx" />
   </component>
   <component name="RunManager" selected="Application.Unnamed">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -600,7 +717,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="test.Outputtest" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../TestApps/bookstore/bookstoreMIF.xml" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../TestApps/Sina/SinaMIF.xml" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -631,15 +748,25 @@
       <workItem from="1433875570980" duration="6845000" />
       <workItem from="1433886423808" duration="16256000" />
       <workItem from="1433971107799" duration="530000" />
+      <workItem from="1434047132505" duration="1196000" />
+      <workItem from="1434052955957" duration="156000" />
+      <workItem from="1434055723141" duration="698000" />
+      <workItem from="1434060256667" duration="625000" />
+      <workItem from="1434061351793" duration="31000" />
+      <workItem from="1435888146350" duration="10186000" />
+      <workItem from="1436208327286" duration="962000" />
+      <workItem from="1438131695419" duration="613000" />
+      <workItem from="1438549735916" duration="10021000" />
+      <workItem from="1438564530080" duration="618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32912000" />
+    <option name="totallyTimeSpent" value="58018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -651,7 +778,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -661,6 +787,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -689,81 +816,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/BackgroundColorScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ImageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="88" selection-start-line="49" selection-start-column="88" selection-end-line="49" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Templatetest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Outputtest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/usc/edu/Hooker/Hooker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/BackgroundColorScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="163" column="17" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/OutputGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/Metainfor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="116" column="50" selection-start-line="116" selection-start-column="50" selection-end-line="116" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="50" column="72" selection-start-line="50" selection-start-column="72" selection-end-line="50" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="116" column="50" selection-start-line="116" selection-start-column="50" selection-end-line="116" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="116" column="50" selection-start-line="116" selection-start-column="50" selection-end-line="116" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,15 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorConflictGraph/ColorConfictGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,10 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#803#810#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,14 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.90625">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/soot-all-soot-all.jar!/soot/SootMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.375">
@@ -1003,19 +1030,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Seer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="19" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="54" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,40 +1063,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Seer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/HTMLtester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sql/usc/MIF/MIF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="311" column="26" selection-start-line="311" selection-start-column="26" selection-end-line="311" selection-end-column="26" />
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java">
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/SemiTagGraph/TagAbstractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
+          <caret line="543" column="26" selection-start-line="543" selection-start-column="26" selection-end-line="543" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/OutputGraph/OutPutTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorConflictGraph/ColorConfictGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#1214#1215#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/BackgroundColorScheme.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="124" />
+          <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/SemiTagGraph/SemiTagGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/SemiTagGraph/SemiTagTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/HTMLTagTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/HTMLContentGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="51" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/HTMLContentGraph/TagInforAbstractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/ColorTansformScheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/usc/ColorTansformScheme/TextColorScheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="38" selection-start-line="88" selection-start-column="38" selection-end-line="88" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Outputtest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94024605">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.13253012">
+          <caret line="76" column="14" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="14" />
           <folding />
         </state>
       </provider>

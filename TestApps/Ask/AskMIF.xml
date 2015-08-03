@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name="bookstore">
+	<usetemplate value="true"/>
+	<templatepath path="/home/dingli/gitprojects/Nyx/TestApps/Ask/Ask.html"/>
+	<csspath path="/home/dingli/gitprojects/Nyx/TestApps/Ask/Ask_files/ask_home.min.cec03343.css"/>
+	<bgcolor color="#ffffff"/>
+	<modifyscriptpath path="/home/dingli/gitprojects/Nyx/TestApps/Ask/transformscript.sh"/>
+
+
+
+		
+</app>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app name="bookstore">
+	<usetemplate value="true"/>
+	<templatepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia.html"/>
+	<csspath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikipedia.css"/>
+	<bgcolor color="#ffffff"/>
+	<modifyscriptpath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/transformscript.sh"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikipedia_wordmark_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Commons-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/MediaWiki-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Meta-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikibooks-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikidata-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/wikimedia-button.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikinews-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikiquote-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikisource-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikispecies-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikiversity-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikivoyage-logo_sister_1x.png"/>
+	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wiktionary-logo_sister_1x.png"/>
+
+
+
+		
+</app>

@@ -11,8 +11,11 @@ public class ColorTansformScheme {
 	TextColorScheme textsheme;
 	public void Display()
 	{
-		bgsheme.Display();
-		textsheme.Display();
+		System.out.println(bgsheme.getPerlCode());
+		System.out.println(textsheme.getPerlCode());
+
+		//bgsheme.Display();
+		//textsheme.Display();
 	}
 	public ColorTansformScheme(ColorConfictGraph ccg, TexColorMap tcm,Color bg)
 	{
@@ -25,9 +28,13 @@ public class ColorTansformScheme {
 		return r;
 
 	}
-	public String GeneratePerl(){
-		String r="";
-
+	public String GeneratePerl(String path){
+		String r="#! /usr/bin/perl\n" +
+				"open my $fh, '<', '"+path+"' or die \"Can't open file $!\";\n" +
+				"my $file_content = do { local $/; <$fh> };\n";
+		r+=bgsheme.getPerlCode()+"\n";
+		r+=textsheme.getPerlCode()+"\n";
+		r+="print $file_content";
 		return r;
 
 

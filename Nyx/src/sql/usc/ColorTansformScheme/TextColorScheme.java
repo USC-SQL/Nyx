@@ -70,6 +70,28 @@ public class TextColorScheme {
 		}
 		return r;
 	}
+	public String getPerlCode(){
+		String r="";
+
+		for(CCGNode n:transformtable.keySet())
+		{
+			Color trans=transformtable.get(n);
+			String color=n.getColor().toHexString();
+			String out="";
+			if(color.charAt(1)==color.charAt(2)&&color.charAt(3)==color.charAt(4)&&color.charAt(5)==color.charAt(6))
+			{
+				String shortcase=Character.toString(color.charAt(1))+Character.toString(color.charAt(3))+Character.toString(color.charAt(5));
+				out+="$file_content =~ s/; *color: *#"+ shortcase+"/;color: "+n.getColor().toHexString()+"/gi;\n";
+				out+="$file_content =~ s/{ *color: *#"+ shortcase+"/{color: "+n.getColor().toHexString()+"/gi;\n";
+
+			}
+			out+="$file_content =~ s/; *color: *"+ n.getColor().toHexString()+"/;color: "+trans.toHexString()+"/gi;";
+			out+="$file_content =~ s/{ *color: *"+ n.getColor().toHexString()+"/{color: "+trans.toHexString()+"/gi;";
+
+			r+=(out+"\n");
+		}
+		return r;
+	}
 	private double subH(Set<CCGNode> bgs, BackgroundColorScheme bgt, Color newtext, Color oldtext)
 	{
 		double h=0;

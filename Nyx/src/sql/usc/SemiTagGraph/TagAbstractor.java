@@ -541,7 +541,7 @@ public class TagAbstractor {
 					}
 					catch(SemiTagException e)
 					{
-						e.printStackTrace();
+						//e.printStackTrace();
 					}
 					continue;
 					//System.out.println();

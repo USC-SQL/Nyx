@@ -179,8 +179,8 @@ public class SemiTagTree {
 			for(SemiTagEdge oe:head.outegdes)
 			{
 				SemiTagNode t=oe.target;
-				if(t.IsComplete() || t.IsLowerIncomplete())
-					throw new Error("the tag is illegal"+head.Value.getFiniteStrings()+"+++"+t.Value.getFiniteStrings());
+				//if(t.IsComplete() || t.IsLowerIncomplete())
+				//	throw new Error("the tag is illegal"+head.Value.getFiniteStrings()+"+++"+t.Value.getFiniteStrings());
 				SemiTagNode nn=new SemiTagNode();
 				nn.sigs.addAll(head.sigs);
 				nn.sigs.addAll(t.sigs);
