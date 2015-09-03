@@ -4,7 +4,7 @@
 	<templatepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia.html"/>
 	<csspath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikipedia.css"/>
 	<bgcolor color="#ffffff"/>
-	<modifyscriptpath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/transformscript.sh"/>
+	<modifyscriptpath path="/home/dingli/gitprojects/Nyx/executable/transformscript.sh"/>
 	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Wikipedia_wordmark_1x.png"/>
 	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/Commons-logo_sister_1x.png"/>
 	<imagepath path="/home/dingli/gitprojects/Nyx/TestApps/Wikipedia/Wikipedia_files/MediaWiki-logo_sister_1x.png"/>

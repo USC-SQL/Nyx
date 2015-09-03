@@ -4,7 +4,7 @@
 	<templatepath path="/home/dingli/gitprojects/Nyx/TestApps/Sina/sina.html"/>
 	<csspath path="/home/dingli/gitprojects/Nyx/TestApps/Sina/sina_files/sina.css"/>
 	<bgcolor color="#ffffff"/>
-	<modifyscriptpath path="/home/dingli/gitprojects/Nyx/TestApps/Sina/transformscript.sh"/>
+	<modifyscriptpath path="/home/dingli/gitprojects/Nyx/executable/transformscript.sh"/>
 
 
 
