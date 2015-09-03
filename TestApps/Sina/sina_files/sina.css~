@@ -1136,7 +1136,7 @@ width:35px;height:29px;vertical-align:middle!important;}
  .real-time-window .rtw2-lt { display:inline; float:left; width:61px; height:50px; background:url(http://i3.sinaimg.cn/dy/deco/2013/0331/mmx_tc_ico_main.png) 0 0 no-repeat #f9f5ec; zoom:1; }
  .real-time-window .rtw2-md { display:inline; float:left; background:#f9f5ec; height:48px; line-height:48px; zoom:1; border-top:1px solid #f6e3c9;border-bottom:1px solid #f6e3c9;}
  .real-time-window a.rtw2-md-title { font-family:"Microsoft YaHei","Î¢ÈíÑÅºÚ","SimHei","ºÚÌå" !important; display:inline-block; height:48px; line-height:48px; padding:0 5px; font-size:16px; }
- .real-time-window a.rtw2-md-title:link { color:#000 !important;text-decoration:none !important;}
+ .real-time-window a.rtw2-md-title:link { color:#00 !important;text-decoration:none !important;}
  .real-time-window a.rtw2-md-title:hover { color:#ff8400 !important;text-decoration:underline !important;}
  .real-time-window a.rtw2-md-title:visited { color:#52687e !important;text-decoration:none !important;}
  .real-time-window a.rtw2-md-detail {font-family:"SimSun","ËÎÌå","Arial Narrow" !important; display:inline-block; height:48px; line-height:48px; padding:0 5px; font-size:16px; display:none;}
